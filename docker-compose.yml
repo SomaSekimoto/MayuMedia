@@ -10,8 +10,7 @@ services:
       - "3000:3000"
       - "24678:24678"
     volumes:
-      - ./:/app
-    command: "npm run dev"
+      - ./:/var/www
     networks:
       - nuxt-network
 

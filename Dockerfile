@@ -1,10 +1,10 @@
-FROM node:16.14.0
+FROM node:16.14.0-alpine
 
-WORKDIR app
 
-COPY . .
+WORKDIR /var/www
+COPY ./package.json /var/www/
 
-RUN npm install
+RUN apk update && npm install
 
 EXPOSE 3000
 CMD ["npm", "run", "dev"]
