@@ -10,6 +10,14 @@
       "StackName": "amplify-mayumedia-dev-225327",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:833695182902:stack/amplify-mayumedia-dev-225327/5318afb0-9fb0-11ec-b3d7-0a99b5890483",
       "AmplifyAppId": "d3o0vjif5ujtd1"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3o0vjif5ujtd1",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
